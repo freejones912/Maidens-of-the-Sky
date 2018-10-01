@@ -1,0 +1,1325 @@
+ideas = {
+	
+
+	# DANISH IDEAS
+
+	political_advisor = {
+
+		DEN_viggo_kampman = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+
+		DEN_ejnar_warum = {
+
+			picture = generic_political_advisor_europe_1
+				
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		DEN_knud_kristensen = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { backroom_backstabber }
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+
+	army_chief = {
+		
+
+		DEN_ebbe_gortz = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DEN_wilhelm_prior = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+		
+
+		DEN_carl_hammerich = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DEN_aage_vedel = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { navy_anti_submarine_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	air_chief = {
+		
+
+		DEN_paul_sommer = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		DEN_kaj_birksted = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { air_air_combat_training_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	high_command = {
+
+		DEN_hans_a_rolsted = {
+			
+			picture = generic_army_europe_4
+
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { army_artillery_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		DEN_christian_frederik_von_schalburg = {
+
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DEN_hjalmar_rechnitzer = {
+
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { navy_fleet_logistics_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DEN_poul_sommer = {
+
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { air_air_combat_training_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	theorist = {
+		DEN_william_wain_prior = {
+			
+			picture = generic_army_europe_3
+
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+	
+		DEN_hans_lunding = {
+
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+
+	}
+
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		htk_orlogsvaerftet = {
+			
+			picture = generic_air_manufacturer_3
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			# recon and fighter aircraft
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		burmeister_wain = {
+			
+			picture = generic_naval_manufacturer_1
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		disa = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			# rifles
+			
+			traits = { infantry_equipment_manufacturer }
+
+		}
+	}
+
+	# SWEDISH IDEAS
+
+	country = {
+	
+		en_svensk_tiger = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = generic_spy_intel
+			
+			modifier = {
+				drift_defence_factor = 0.1
+				enemy_justify_war_goal_time = 0.1
+			}
+		}
+	
+	}
+
+	political_advisor = {
+
+		SWE_thorwald_bergquist = {
+
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		SWE_osten_unden = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		SWE_ernst_wigforss = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}
+
+	theorist = {
+
+		SWE_helge_jung = {
+					
+					
+			allowed = {
+				original_tag = BLT
+			}
+			
+			picture = generic_army_europe_2
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		SWE_erik_palmstierna = {
+					
+					
+			allowed = {
+				original_tag = BLT
+			}
+			
+			picture = generic_political_advisor_europe_1
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		SWE_olof_thornell = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_ivar_holmquist = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_per_sylvan = {
+			
+			picture = generic_army_europe_6
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_defensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_oscar_nygren = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		SWE_bengt_nordenskiold = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_torsten_friis = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		SWE_gosta_ehrensvard = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_fabian_tamm = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_charles_de_champs = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	high_command = {
+
+		SWE_axel_rappe = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_artillery_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		SWE_archibald_douglas = {
+			
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_axel_ljungdahl = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_helge_stromback = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		landsverk = {
+			
+			picture = generic_tank_manufacturer_2
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+			
+			modifier = {
+				# notable tanks L-120 and L-60, lighter tanks as well as the medium tank Stridsvagn m/42, that was mobile and well protected.
+			}
+		}
+
+	}
+	
+	naval_manufacturer = { 
+			
+		designer = yes
+		
+		marinvarkstaderna = { #Karlskrona
+			
+			picture = generic_naval_manufacturer_1
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				# mer research
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		gotaverken = {
+			
+			picture = generic_naval_manufacturer_2
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				# worlds biggest shipyard by launched gross tonnes
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		kockums = {
+			
+			picture = generic_naval_manufacturer_3
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			 
+			equipment_bonus = {
+				# submarines and battleships
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+
+
+	materiel_manufacturer = {
+		
+		designer = yes
+	
+		bofors = {
+			
+			picture = generic_artillery_manufacturer_1
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			equipment_bonus = {
+				artillery = {
+					reliability = 0.20
+				}
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	
+		husqvarna = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			equipment_bonus = {
+				# rifles and pistols
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		scania = {
+			
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+				# more info
+			}
+		}
+		
+	}
+
+	# NORWEGIAN IDEAS
+
+	political_advisor = {
+
+		NOR_halvdan_koht = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+
+		NOR_adolf_indrebo = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		NOR_trygve_halvdan_lie = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { popular_figurehead }
+		}
+	}
+
+	army_chief = {
+		
+		NOR_otto_ruge = {
+			
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NOR_willhelm_von_tangen_hansteen = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NOR_kristian_laake = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		NOR_bjarne_oen = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NOR_ole_reistad = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NOR_hjalmar_riiser_larsen = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		NOR_edgar_otto = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NOR_henry_diesen = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	theorist = {
+		NOR_konrad_sundlo = {
+			
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		NOR_tryggve_gran = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+		NOR_skule_storheil = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+
+	}
+
+
+	high_command = {
+
+		NOR_alfred_roscher-lund = {
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { army_concealment_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NOR_jacob_von_der_lippe = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { navy_chief_naval_aviation_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NOR_birger_ljungberg = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NOR_wilhelm_von_tangen-hansteen = {
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		NOR_marinens_flyvebaatfabrikk = {
+			
+			picture = generic_air_manufacturer_1
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			equipment_bonus = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		kjeller_flyfabrikk = {
+			
+			picture = generic_air_manufacturer_2
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# licenced and built fokker C.V bombers
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	naval_manufacturer = {
+		
+		designer = yes
+		
+		horten_naval_yard = {
+			
+			picture = generic_naval_manufacturer_1
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				# mer research
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		kongsberg = {
+			
+			picture = generic_infantry_equipment_manufacturer_1
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			equipment_bonus = {
+				# rifles and pistols
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	
+		raufoss_ammunisjonsfabrikker = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			equipment_bonus = {
+				# rifles and pistols
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+	
+		NOR_honefoss_karosserifabrikk = {
+			# technically not a military manufacturer. Remove if problem.
+			
+			picture = generic_motorized_equipment_manufacturer_3
+
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+
+	industrial_concern = {
+		
+		NOR_tandbergs_radiofabrikk = {
+			
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				electronics = 0.1
+			}
+			
+			traits = { electronics_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NOR_norsk_hydro = {
+
+			picture = generic_refining_concern_1
+		
+			allowed = {
+				original_tag = BLT
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.1
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
